@@ -1,4 +1,4 @@
-# Social-Distancing-and-Mask-Detection
+# Social Distancing and Face Mask Detection
 
 Social distance monitoring and face mask detection system using a deep learning model has been implemented to tackle Covid19 situation. This has been achieved by using YOLO v3 object detection method which detects the persons in the video sequences and by using DBSCAN clustering method which estimates the distance between persons. To help the training process, augmented masked faces were generated using facial landmarks and blurring effects were also added. Any non-compliant pair has been indicated with a red bounded box and a red line between them. Safe pair has been indicated with a green bounded box around them. DFSD face detection method has been used to detect whether the persons were wearing a mask or not. Green bounded box around the face has been used if the mask was on the face and the red bounded box around the face has been used if the mask wasn’t on the face.
 
