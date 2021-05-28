@@ -17,7 +17,6 @@ https://drive.google.com/drive/folders/1OB-Nf5s3etAQHeRG1YeatMNyfDRZDKK2
 * [Keras](https://keras.io/) : Used for designing and training the Face_Mask_Classifier model.
 * [face-detection](https://github.com/hukkelas/DSFD-Pytorch-Inference) : Used for detecting faces with Dual Shot Face Detector.
 * [face-recognition](https://github.com/ageitgey/face_recognition) : Used for detecting facial landmarks.
-* [tqdm](https://github.com/tqdm/tqdm) : Used for showing progress bars.
 
 ## Algorithms
 * YOLO - Object Detection (Person)
