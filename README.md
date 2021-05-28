@@ -4,6 +4,8 @@ This project aims at monitoring people violating Social Distancing over video fo
 
 
 
+
+
 ### Dataset and Weights
 
 Dataset and pretrained weights can be downloaded from the below link:
