@@ -1,9 +1,6 @@
 # Social-Distancing-and-Mask-Detection
 
-This project aims at monitoring people violating Social Distancing over video footage coming from CCTV Cameras. Uses YOLOv3 along with DBSCAN clustering for recognizing potential intruders. A Face Mask Classifier model (ResNet50) is trained and deployed for identifying people not wearing a face mask. For aiding the training process, augmented masked faces are generated (using facial landmarks) and blurring effects (frequently found in video frames) are also imitated.
-
-
-
+Social distance monitoring and face mask detection system using a deep learning model has been implemented to tackle Covid19 situation. This has been achieved by using YOLO v3 object detection method which detects the persons in the video sequences and by using DBSCAN clustering method which estimates the distance between persons. To help the training process, augmented masked faces were generated using facial landmarks and blurring effects were also added. Any non-compliant pair has been indicated with a red bounded box and a red line between them. Safe pair has been indicated with a green bounded box around them. DFSD face detection method has been used to detect whether the persons were wearing a mask or not. Green bounded box around the face has been used if the mask was on the face and the red bounded box around the face has been used if the mask wasn’t on the face.
 
 
 ### Dataset and Weights
@@ -21,6 +18,11 @@ https://drive.google.com/drive/folders/1OB-Nf5s3etAQHeRG1YeatMNyfDRZDKK2
 * [face-detection](https://github.com/hukkelas/DSFD-Pytorch-Inference) : Used for detecting faces with Dual Shot Face Detector.
 * [face-recognition](https://github.com/ageitgey/face_recognition) : Used for detecting facial landmarks.
 * [tqdm](https://github.com/tqdm/tqdm) : Used for showing progress bars.
+
+## Algorithms
+* YOLO - Object Detection (Person)
+* DSFD - Face Detection
+* DBSCAN - Distance Calculation
 
 ## Future Work
 * Speed Optimization
