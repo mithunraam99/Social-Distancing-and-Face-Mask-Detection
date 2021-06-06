@@ -19,9 +19,9 @@ https://drive.google.com/drive/folders/1OB-Nf5s3etAQHeRG1YeatMNyfDRZDKK2
 * [face-recognition](https://github.com/ageitgey/face_recognition) : Used for detecting facial landmarks.
 
 ## Algorithms
-* YOLO - Object Detection (Person)
-* DSFD - Face Detection
-* DBSCAN - Distance Calculation
+* **YOLO** - Object Detection (Person)
+* **DSFD** - Face Detection
+* **DBSCAN** - Distance Calculation
 
 ## Future Work
 * Speed Optimization
